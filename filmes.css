@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: blanchedalmond;
+}
+
+.cabecario {
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;   
+}
+
+.cabecario-lista {
+    
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecario-item a {
+    color: white;
+}
+
+.titulo {
+    color: white;
+}
+
+.filmesdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo-filme {
+   padding: 1rem;
+   color: black;
+}
+
+.card {
+    border: 1px solid purple;
+    border-radius: 4px;
+    padding: 0.5 rem;
+    position: relative; 
+    width: 250px;
+    height: 500px;
+    margin-bottom: 2rem;
+    
+}
+
+.botao {
+    width: 10px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.botao:hover{
+    width: 15px;
+    cursor: pointer;
+}
+
+.texto-titulo {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.texto-card {
+    text-align: justify;
+    padding: 1rem 0.25rem;
+    color: green;
+}
+
+
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;   
+}
+
+.listarodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem {
+    width: 150px;
+    display: block;
+    margin: 0 auto;  
+}
